@@ -15,7 +15,7 @@ const Cards = () => {
         console.log(films);
       } catch (err) {
         console.log(err.message);
-        // setFilms(null);
+        //setFilms(null);
       } finally {
         setLoading(false);
       }
